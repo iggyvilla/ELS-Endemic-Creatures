@@ -34,7 +34,7 @@ public class main_background_loop : MonoBehaviour
         secondImage.transform.SetSiblingIndex(0);
 
         secondImage.transform.position = firstImage.transform.position;
-        secondImage.transform.position -= new Vector3(firstImage.rectTransform.sizeDelta.x + 1, 0, 0);
+        secondImage.transform.position -= new Vector3(firstImage.rectTransform.sizeDelta.x - 2, 0, 0);
 
         leftSide = secondImage.transform.position;
 
