@@ -1,5 +1,5 @@
 # The Ultimate Guide to Endemic Creatures
-
+###### Joaquin Abella, Nicole Jose, Railey Singson, Iggy Villa
 A 2D game made in Unity to teach students about Philippine Endemic Species
 
 ### To-do
