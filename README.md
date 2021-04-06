@@ -8,3 +8,4 @@ A 2D game made in Unity to teach students about Philippine Endemic Species
 - [ ] Characters
 - [ ] Backgrounds and art
 - [ ] Scenes
+- [ ] Coding
