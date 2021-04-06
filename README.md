@@ -4,7 +4,7 @@ A 2D game made in Unity to teach students about Philippine Endemic Species
 
 ### To-do
 - [x] Started
-- [ ] API for data
+- [ ] Python RESTful API for analytics
 - [ ] Story
 - [ ] Characters
 - [ ] Backgrounds and art
