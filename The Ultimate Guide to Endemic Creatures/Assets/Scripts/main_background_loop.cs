@@ -1,6 +1,13 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
+/*
+    This script pretty much just loops the background again and again
+    I don't know why it's so long
+    And I don't know if it's optimal
+    But it works 
+*/
+
 public class main_background_loop : MonoBehaviour
 {
 
