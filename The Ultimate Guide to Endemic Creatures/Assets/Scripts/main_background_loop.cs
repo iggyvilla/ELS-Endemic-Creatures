@@ -51,7 +51,7 @@ public class main_background_loop : MonoBehaviour
 
         if (change > threshold) {
             Debug.Log(change + " " + threshold);
-            firstImage.transform.position = leftSide;
+            firstImage.transform.position = leftSide + new Vector3(2, 0, 0);
             
             Image _firstImage = firstImage;
 
@@ -61,8 +61,8 @@ public class main_background_loop : MonoBehaviour
             change = 0;
         }
         
-        firstImage.transform.position += moveSpeed; 
         secondImage.transform.position += moveSpeed;
+        firstImage.transform.position += moveSpeed; 
         change += scrollSpeed * Time.deltaTime;
         
     }
