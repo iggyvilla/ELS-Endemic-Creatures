@@ -18,8 +18,7 @@ public class TalkManager : MonoBehaviour
     {
         GoOutOfFrame();
         conversation = GetComponentInChildren<Text>();
-        StartCoroutine(MakeConversation(new string[] {"All your base are belong to us!", "Yahahahaha!"}));
-
+        // StartCoroutine(MakeConversation(new string[] {"All your base are belong to us!", "Yahahahaha!"}));
         GetComponentInChildren<DownButtonHandler>().nextLineEvent += GoNextLine; // subscribing to event
     }
 
