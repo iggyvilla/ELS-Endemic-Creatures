@@ -304,7 +304,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3, y: 4}
+  m_AnchoredPosition: {x: 0, y: 8.613}
   m_SizeDelta: {x: -31.222229, y: -17.226074}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &381323853
@@ -327,12 +327,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 2978887d7c4df6e4d8ef5b08822c51d0, type: 3}
-    m_FontSize: 24
+    m_Font: {fileID: 12800000, guid: 96e914544c5bcf44583233330cbe8c32, type: 3}
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 40
+    m_MaxSize: 56
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -486,7 +486,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.3, y: -70.7}
+  m_AnchoredPosition: {x: -0.000012398, y: -103}
   m_SizeDelta: {x: 249.99109, y: 264.15765}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &802329555
@@ -517,9 +517,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: b272b19fc826a534f87d9be515a8e053,
+    m_HighlightedSprite: {fileID: 21300000, guid: 564ccb373e3e86a489f0c855042f70da,
       type: 3}
-    m_PressedSprite: {fileID: 21300000, guid: cffaa415a63ec55439ee03d16ba40a34, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: b70710cde6992a04680b767bbb45d8fa, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -552,7 +552,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 719271fb5a75c8b429f7d394950f4912, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b70710cde6992a04680b767bbb45d8fa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -604,7 +604,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 54}
+  m_AnchoredPosition: {x: 12, y: 77}
   m_SizeDelta: {x: 439.98914, y: 218.05243}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1008171974
@@ -639,7 +639,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Endemic Creatures
+  m_Text: 'Endemic Creatures
+
+    (in the Philippines)'
 --- !u!222 &1008171975
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -803,7 +805,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 115}
+  m_AnchoredPosition: {x: 12, y: 153}
   m_SizeDelta: {x: 384.47827, y: 137.74963}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2005617661
