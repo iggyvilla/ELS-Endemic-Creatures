@@ -282,6 +282,16 @@ PrefabInstance:
       propertyPath: m_Text
       value: Never gonna give you up
       objectReference: {fileID: 0}
+    - target: {fileID: 8101375257864058726, guid: 43c8d00e4bdd2e34397e9b671fc033c7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -346.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8101375258224878801, guid: 43c8d00e4bdd2e34397e9b671fc033c7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8101375258588210992, guid: 43c8d00e4bdd2e34397e9b671fc033c7,
         type: 3}
       propertyPath: m_RootOrder
@@ -295,7 +305,7 @@ PrefabInstance:
     - target: {fileID: 8101375258588210992, guid: 43c8d00e4bdd2e34397e9b671fc033c7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.7249937
+      value: -2.54
       objectReference: {fileID: 0}
     - target: {fileID: 8101375258588210992, guid: 43c8d00e4bdd2e34397e9b671fc033c7,
         type: 3}
@@ -344,3 +354,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43c8d00e4bdd2e34397e9b671fc033c7, type: 3}
+--- !u!1 &8101375258224003526 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8101375258588210993, guid: 43c8d00e4bdd2e34397e9b671fc033c7,
+    type: 3}
+  m_PrefabInstance: {fileID: 8101375258224003525}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &8101375258224003527
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8101375258224003526}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cd63a0c687050dc4ab87b51cbf437904, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

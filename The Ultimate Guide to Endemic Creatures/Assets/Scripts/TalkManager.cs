@@ -16,20 +16,29 @@ public class TalkManager : MonoBehaviour
 
     void Start()
     {
-        GoOutOfFrame();
+
+
+        //GoOutOfFrame();
         conversation = GetComponentInChildren<Text>();
-        // StartCoroutine(MakeConversation(new string[] {"All your base are belong to us!", "Yahahahaha!"}));
+        StartCoroutine(EnumMakeConversation(new string[] {"All your base are belong to us!", "Yahahahaha!"}));
         GetComponentInChildren<DownButtonHandler>().nextLineEvent += GoNextLine; // subscribing to event
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void CreateConversation(string[] lines) {
+        ///<summary> Makes the conversation thing pop up, accepts an array of arguments </summary>
+        ///<param> lines </param>
+         
+        StartCoroutine(EnumMakeConversation(lines));
     }
 
-    IEnumerator MakeConversation(string[] sentences) {
-        GoInFrame();
+    IEnumerator EnumMakeConversation(string[] sentences) {
+        Animator animator = GetComponent<Animator>();
+
+        if (animator != null) {
+            animator.SetBool("slidein", true);
+        }
+
+        // GoInFrame();
         enabled = true;
         foreach (string sentence in sentences) {
             for (int i = 0; i < sentence.Length + 1; i++) {
@@ -42,7 +51,8 @@ public class TalkManager : MonoBehaviour
         yield return new WaitUntil(() => nextEvent); // wait for one final button click
         
         endConvoEvent();
-        GoOutOfFrame();
+        animator.SetBool("slidein", false);
+        //GoOutOfFrame();
     }
 
     IEnumerator WaitingForNext() {
