@@ -13,8 +13,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Background
+  - BG Sprites
   - 
   - 
   - 
@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG Trees
+    uniqueID: 2715864511
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

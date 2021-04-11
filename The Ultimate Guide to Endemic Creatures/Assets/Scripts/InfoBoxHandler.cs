@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class InfoBoxHandler : MonoBehaviour
 {
-    public delegate void AnimationDoneDelegate();
-    public event AnimationDoneDelegate animationDone;
     // Start is called before the first frame update
     void Start()
     {
         GetComponentInChildren<DownButtonInfoBox>().continueToQuestionEvent += exitInfoBox;
-        MakeInfoBoxEvent();
+        // MakeInfoBoxEvent();
     }
 
     public void MakeInfoBoxEvent() {
